@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script');
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville');
+
+@page {
+    size: A4;
+    margin: 0;
+}
+body {
+    width: 210mm;
+    height: 297mm;
+    gap: 0cm;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 25px;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 3cm auto;
+}
+
+.borde {
+    padding: 10px;
+    background-color: #fff;
+
+}
+.fa{
+    font-family: "Pinyon Script";
+    font-size: 22px;
+    color: hsl(0, 0%, 0%);
+    text-shadow:
+        -1px -1px 1px #aaa,
+        0px 4px 1px rgba(0, 0, 0, 0.5),
+        4px 4px 5px rgba(0, 0, 0, 0.7),
+        0px 0px 7px rgba(0, 0, 0, 0.4);
+}
+.contenido {
+    background-color: #fff;
+    padding: 20px;
+    display: grid;
+}
+.datos{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 35px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    display: grid;
+}
+
+.logo {
+        text-align: center;
+    align-content: center;
+    margin: 10px;
+}
+svg {
+    filter: drop-shadow(
+        -5px 6px 5px rgba(0, 0, 0, .4)
+        )
+
+}
+
+.titulo {
+    font-family: "Pinyon Script";
+    font-size: 30px;
+    font-weight: bold;
+    align-content: center;
+    text-align: center;
+    margin: 0;
+}
+
+.profesional {
+    margin: 0px;
+    font-size: 32pt;
+    font-family: "Pinyon Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    align-content: flex-end;
+    text-align: center;
+    color: #000000;
+    text-shadow:
+        -1px -1px 1px #aaa,
+        0px 4px 1px rgba(0, 0, 0, 0.5);
+}
+
+.subtitulo {
+    font-family: "Pinyon Script";
+    font-size: 26px;
+    font-weight: bold;
+    align-content: flex-start;
+    text-align: center;
+    margin: 0;
+}
+
+.registro {
+    font-family: "Libre Baskerville";
+    font-size: 24px;
+    text-align: center;
+    align-content: center;
+    margin: 10px 0;
+    color: #000000;
+}
+
+.etiqueta {
+    font-family: "Inknut+Antiqua";
+    font-size: 12px;
+    text-align: center;
+    align-content: flex-end;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.campo {
+    font-family: 'Libre+Baskerville';
+    font-size: 24px;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.materialsymbolsrounded{
+    color: #000000;
+        font-family: 'Material Symbols Rounded';
+        font-size: 24px;
+        text-align: center;
+        font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+        color: hsl(0, 0%, 100%);
+
+}
+.contacto {
+    padding-top: 10mm;
+}
+table {
+    table-layout: auto; width: 80%;
+}
+td {
+    font-family: 'Noto Serif';
+    font-size: 16px;
+}
+.fecha{
+    font-family: "Pinyon Script";
+    font-size: 24px;
+    text-align: right;
+    align-content: center;
+}
