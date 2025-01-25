@@ -29,11 +29,8 @@ body {
     font-family: "Pinyon Script";
     font-size: 22px;
     color: hsl(0, 0%, 0%);
-    text-shadow:
-        -1px -1px 1px #aaa,
-        0px 4px 1px rgba(0, 0, 0, 0.5),
-        4px 4px 5px rgba(0, 0, 0, 0.7),
-        0px 0px 7px rgba(0, 0, 0, 0.4);
+    filter: drop-shadow(
+        -5px 6px 5px rgba(0, 0, 0, .4));
 }
 .contenido {
     background-color: #fff;
@@ -136,13 +133,14 @@ svg {
 }
 .contacto {
     padding-top: 10mm;
+    align-content: end;
 }
 table {
     table-layout: auto; width: 100%;
 }
 td {
     font-family: 'Noto Serif';
-    font-size: 16px;
+    font-size: 14px;
 }
 .fecha{
     font-family: "Pinyon Script";
