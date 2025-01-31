@@ -26,12 +26,16 @@ body {
 }
 
 .contenido {
-    background-color: #fff;
+    background-color: transparent;
     padding: 20px;
     display: grid;
 }
 .datos{
     background-color: #fff;
+    background-image: url(Aurorita_fondo.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
     padding: 20px;
     border: solid 1mm #000000;
     border-radius: 4px;
@@ -128,10 +132,4 @@ table {
 td {
     font-family: 'Noto Serif';
     font-size: 16px;
-}
-.fecha{
-    font-family: "Libre Baskerville";
-    font-size: 18px;
-    text-align: center;
-    align-content: center;
 }
