@@ -47,9 +47,6 @@ body {
     text-align: center;
     align-content: center;
     margin: 30px;
-    filter: drop-shadow(
-        -5px 6px 5px rgba(0, 0, 0, .4)
-        );
 }
 
 .titulo {
