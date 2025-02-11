@@ -1,0 +1,92 @@
+
+
+@page {
+    size: A4;
+    margin: 0;
+}
+body {
+    width: 145mm;
+    height: 255mm;
+    gap: 0cm;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10pt;
+    margin-top: 35mm;
+    margin-bottom: 7mm;
+    margin-left: 45mm;
+    margin-right: 20mm;
+/*
+    border: solid 1pt #000000;
+    */
+    padding: 0%;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: repeat(29, 5mm);
+    grid-template-rows: repeat(25, 10.2mm);
+}
+.acta {
+    grid-row: 1;
+    grid-column: 10 / 16;
+    line-height: 10.2mm;
+
+}
+.folio {
+    grid-row: 1;
+    grid-column: 21 / 30;
+    text-indent: 2mm;
+    line-height: 10.2mm;
+
+}
+.libro {
+    grid-row: 2;
+    grid-column: 5 / 9;
+    line-height: 10.2mm;
+
+}
+.lugar {
+    grid-row: 2;
+    grid-column: 15 / 30;
+    line-height: 10.2mm;
+}
+.fechalarga {
+    grid-row: 3;
+    grid-column: 16 / 30;
+    line-height: 10.2mm;
+
+}
+.escribano {
+    grid-row: 4;
+    grid-column: 7 / 21;
+    line-height: 10.2mm;
+
+}
+.registro {
+    grid-row: 5;
+    grid-column: 1 / 16;
+    line-height: 10.2mm;
+
+}
+.sedenotarial {
+    grid-row: 5 / 7;
+    grid-column: 1 / 30;
+    text-indent: 110mm;
+    text-align: justify;
+    line-height: 10.2mm;
+
+}
+.textoparrafo {
+    grid-row: 7 / 22;
+    grid-column: 1 / 30;
+    text-indent: 105mm;
+    text-align: justify;
+    line-height: 10.2mm;
+
+}
+.renglon22 {
+    grid-row: 22 / 25;
+    grid-column: 1 / 30;
+    text-indent: 75mm;
+    text-align: justify;
+    line-height: 10.2mm;
+
+}
+
