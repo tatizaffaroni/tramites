@@ -10,11 +10,11 @@ window.onload = function() {
     const sedenotarial = urlParams.get('sedenotarial');
     const textoparrafo = urlParams.get('textoparrafo');
     const renglon22 = urlParams.get('renglon22');
-    const cargasfiscales = urlParams.get('cargasfiscales');
-    const renglon37a = urlParams.get('renglon37a');
-    const renglon37b = urlParams.get('renglon37b');
-    const observaciones = urlParams.get('observaciones');
-    const fechaexpedicion = urlParams.get('fechaexpedicion');
+//    const cargasfiscales = urlParams.get('cargasfiscales');
+//    const renglon37a = urlParams.get('renglon37a');
+//    const renglon37b = urlParams.get('renglon37b');
+//    const observaciones = urlParams.get('observaciones');
+//    const fechaexpedicion = urlParams.get('fechaexpedicion');
     
     // Modifica los valores en el html según su ID
     document.getElementById('acta').innerText = acta;
@@ -26,9 +26,9 @@ window.onload = function() {
     document.getElementById('sedenotarial').innerText = sedenotarial;
     document.getElementById('textoparrafo').innerText = textoparrafo;
     document.getElementById('renglon22').innerText = renglon22;
-    document.getElementById('cargasfiscales').innerText = cargasfiscales;
-    document.getElementById('renglon37a').innerText = renglon37a;
-    document.getElementById('renglon37b').innerText = renglon37b;
-    document.getElementById('observaciones').innerText = observaciones;
-    document.getElementById('fechaexpedicion').innerText = fechaexpedicion;
+//    document.getElementById('cargasfiscales').innerText = cargasfiscales;
+//    document.getElementById('renglon37a').innerText = renglon37a;
+//    document.getElementById('renglon37b').innerText = renglon37b;
+//    document.getElementById('observaciones').innerText = observaciones;
+//    document.getElementById('fechaexpedicion').innerText = fechaexpedicion;
     };
