@@ -14,6 +14,9 @@ body {
     margin-bottom: 0mm;
     margin-left: 0mm;
     margin-right: 0mm;
+/*
+    border: solid 1pt #000000;
+    */
     padding: 0%;
     background-color: #fff;
     display: grid;
@@ -22,12 +25,13 @@ body {
 }
 .pagina1 {
     width: 145mm;
-    height: 255mm;
+    height: 257mm;
     gap: 0cm;
-    margin-top: 35mm;
+    margin-top: 33mm;
     margin-bottom: 7mm;
     margin-left: 45mm;
     margin-right: 20mm;
+    border: solid 1pt #000000;
     padding: 0%;
     background-color: #fff;
     display: grid;
@@ -36,12 +40,13 @@ body {
 }
 .pagina2 {
     width: 145mm;
-    height: 255mm;
+    height: 257mm;
     gap: 0cm;
-    margin-top: 35mm;
+    margin-top: 33mm;
     margin-bottom: 7mm;
     margin-left: 20mm;
     margin-right: 45mm;
+    border: solid 1pt #000000;
     padding: 0%;
     background-color: #fff;
     display: grid;
@@ -50,7 +55,7 @@ body {
 }
 .acta {
     grid-row: 1;
-    grid-column: 10 / 16;
+    grid-column: 12 / 17;
     line-height: 10.2mm;
 }
 .folio {
@@ -76,7 +81,7 @@ body {
 }
 .escribano {
     grid-row: 4 / 5;
-    grid-column: 7 / 21;
+    grid-column: 6 / 21;
     line-height: 10.2mm;
 }
 .registro {
@@ -87,21 +92,21 @@ body {
 .sedenotarial {
     grid-row: 5 / 7;
     grid-column: 1 / 30;
-    text-indent: 110mm;
+    text-indent: 120mm;
     text-align: justify;
     line-height: 10.2mm;
 }
 .textoparrafo {
     grid-row: 7 / 22;
     grid-column: 1 / 30;
-    text-indent: 105mm;
+    text-indent: 115mm;
     text-align: justify;
     line-height: 10.2mm;
 }
 .renglon22 {
     grid-row: 22 / 26;
     grid-column: 1 / 30;
-    text-indent: 75mm;
+    text-indent: 85mm;
     text-align: justify;
     line-height: 10.2mm;
 }
