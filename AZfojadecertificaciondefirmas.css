@@ -89,9 +89,9 @@ body {
     line-height: 10.2mm;
 }
 .textoparrafo {
-    grid-row: 7 / 22;
+    grid-row: 8 / 22;
     grid-column: 1 / 72;
-    text-indent: 113mm;
+    text-indent: 0mm;
     text-align: justify;
     line-height: 10.2mm;
 }
