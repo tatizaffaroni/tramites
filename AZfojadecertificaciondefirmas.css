@@ -14,28 +14,22 @@ body {
     margin-bottom: 0mm;
     margin-left: 0mm;
     margin-right: 0mm;
-/*
-    border: solid 1pt #000000;
-    */
     padding: 0%;
-    background-color: #fff;
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: 297mm 297mm;
 }
 .pagina1 {
-    width: 145mm;
+    width: 142mm;
     height: 257mm;
     gap: 0cm;
     margin-top: 33mm;
     margin-bottom: 7mm;
-    margin-left: 45mm;
-    margin-right: 20mm;
-    border: solid 1pt #000000;
+    margin-left: 46mm;
+    margin-right: 22mm;
     padding: 0%;
-    background-color: #fff;
     display: grid;
-    grid-template-columns: repeat(29, 5mm);
+    grid-template-columns: repeat(71, 2mm);
     grid-template-rows: repeat(25, 10.2mm);
 }
 .pagina2 {
@@ -50,102 +44,102 @@ body {
     padding: 0%;
     background-color: #fff;
     display: grid;
-    grid-template-columns: repeat(29, 5mm);
+    grid-template-columns: repeat(71, 2mm);
     grid-template-rows: repeat(25, 10.2mm);
 }
 .acta {
     grid-row: 1;
-    grid-column: 12 / 17;
+    grid-column: 26 / 43;
     line-height: 10.2mm;
 }
 .folio {
     grid-row: 1;
-    grid-column: 21 / 30;
-    text-indent: 2mm;
+    grid-column: 52 / 72;
+    text-indent: 0mm;
     line-height: 10.2mm;
 }
 .libro {
     grid-row: 2 / 3;
-    grid-column: 5 / 9;
+    grid-column: 11 / 21;
     line-height: 10.2mm;
 }
 .lugar {
     grid-row: 2 / 3;
-    grid-column: 15 / 30;
+    grid-column: 36 / 72;
     line-height: 10.2mm;
 }
 .fechalarga {
     grid-row: 3 / 4;
-    grid-column: 16 / 30;
+    grid-column: 37 / 72;
     line-height: 10.2mm;
 }
 .escribano {
     grid-row: 4 / 5;
-    grid-column: 6 / 21;
+    grid-column: 13 / 52;
     line-height: 10.2mm;
 }
 .registro {
     grid-row: 5 / 6;
-    grid-column: 1 / 16;
+    grid-column: 1 / 40;
     line-height: 10.2mm;
 }
 .sedenotarial {
     grid-row: 5 / 7;
-    grid-column: 1 / 30;
+    grid-column: 1 / 72;
     text-indent: 120mm;
     text-align: justify;
     line-height: 10.2mm;
 }
 .textoparrafo {
     grid-row: 7 / 22;
-    grid-column: 1 / 30;
-    text-indent: 115mm;
+    grid-column: 1 / 72;
+    text-indent: 113mm;
     text-align: justify;
     line-height: 10.2mm;
 }
 .renglon22 {
     grid-row: 22 / 26;
-    grid-column: 1 / 30;
-    text-indent: 85mm;
+    grid-column: 1 / 72;
+    text-indent: 78mm;
     text-align: justify;
     line-height: 10.2mm;
 }
 .renglon26 {
     grid-row: 1 / 5;
-    grid-column: 1 / 30;
+    grid-column: 1 / 72;
     text-indent: 0mm;
     text-align: justify;
     line-height: 10.2mm;
 }
 .cargasfiscales {
     grid-row: 5 / 12;
-    grid-column: 1 / 30;
-    text-indent: 30mm;
+    grid-column: 1 / 72;
+    text-indent: 25mm;
     text-align: justify;
     line-height: 10.2mm;
 }
 .renglon37a{    
     grid-row: 12 / 13;
-    grid-column: 7 / 10;
+    grid-column: 14 / 20;
     text-indent: 0mm;
     line-height: 10.2mm;
 }
 .renglon37b{    
     grid-row: 12 / 13;
-    grid-column: 14 / 24;
+    grid-column: 31 / 56;
     text-indent: 0mm;
     line-height: 10.2mm;
 }
 .observaciones {
     grid-row: 14 / 21;
-    grid-column: 1 / 30;
+    grid-column: 1 / 72;
     text-indent: 60mm;
     text-align: justify;
     line-height: 10.2mm;
 }
 .fechaexpedicion {
     grid-row: 21 / 22;
-    grid-column: 11 / 30;
+    grid-column: 25 / 72;
     text-indent: 0mm;
     line-height: 10.2mm;
 }
