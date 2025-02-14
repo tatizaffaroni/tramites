@@ -40,9 +40,7 @@ body {
     margin-bottom: 7mm;
     margin-left: 20mm;
     margin-right: 45mm;
-    border: solid 1pt #000000;
     padding: 0%;
-    background-color: #fff;
     display: grid;
     grid-template-columns: repeat(71, 2mm);
     grid-template-rows: repeat(25, 10.2mm);
