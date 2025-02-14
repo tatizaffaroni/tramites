@@ -52,7 +52,7 @@ body {
 }
 .folio {
     grid-row: 1;
-    grid-column: 50 / 72;
+    grid-column: 51 / 72;
     text-indent: 0mm;
     line-height: 10.2mm;
 }
