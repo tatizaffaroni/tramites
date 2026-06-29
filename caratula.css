@@ -41,8 +41,17 @@ body {
     .marco { z-index: 1 !important; }
     .contenido { z-index: 10 !important; }
 
-    /* Forzamos el centrado de los contenedores en el papel */
-    .logo, .separador {
+    /* REEMPLAZA TU ANTIGUA REGLA POR ESTAS DOS: */
+    .logo {
+        display: flex !important;
+        flex-direction: column !important; /* <--- Esto hace que se mantengan uno abajo del otro */
+        justify-content: center !important;
+        align-items: center !important;
+        text-align: center !important;
+        width: 100% !important;
+    }
+
+    .separador {
         display: flex !important;
         justify-content: center !important;
         align-items: center !important;
