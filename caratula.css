@@ -100,10 +100,10 @@ body {
    4. EL LOGO (Ubicado de forma nativa en el Grid)
    ========================================================================== */
 .logo {
-  /*  display: grid; */
+  display: grid;
   text-align: center; /* Centrado horizontal respecto al contenedor */
   justify-content: center; /* Centrado horizontal exacto respecto al texto */
-  align-content:end;   /* Centrado vertical exacto dentro de sus 67mm */
+  align-content:center;   /* Centrado vertical exacto dentro de sus 67mm */
   width: 100%;
   height: 100%;
 }
@@ -156,6 +156,7 @@ body {
 .campo {
     font-family: 'Lora';
     font-size: 20px;
+    font-weight: bold;
     text-transform: capitalize;
     text-align: Center;
     line-height: 1.2;
