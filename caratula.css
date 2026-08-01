@@ -138,34 +138,20 @@ body {
 .datos {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 8px;
+    gap: 0px;
 }
 
 .etiqueta {
     font-family: "URWChanceryLMediumItalicU";
     font-size: 32px;
     text-align: CENTER;
-    font-weight: bold;
-}
-
-.etiqueta1 {
-    font-family: "URWChanceryLMediumItalicU";
-    font-size: 32px;
-    text-align: Right;
-    font-weight: bold;
-}
-
-.etiqueta2 {
-    font-family: "URWChanceryLMediumItalicU";
-    font-size: 32px;
-    text-align: Left;
-    font-weight: bold;
+    font-weight: normal;
 }
 
 .campo {
     font-family: 'Lora';
     font-size: 20px;
-    font-weight: bold;
+    font-weight: normal;
     text-transform: capitalize;
     text-align: Center;
     line-height: 1.2;
@@ -175,7 +161,8 @@ body {
     font-family: 'Lora';
     font-size: 20px;
     text-transform: capitalize;
-    text-align: Right;
+    font-weight: bold;
+    text-align: center;
     line-height: 1.2;
 }
 
@@ -187,25 +174,9 @@ body {
     line-height: 1.2;
 }
 
-table {
-    width: 100%;
-    table-layout: fixed;
-    margin-top: 10px;
-    border-collapse: SEPARATE;
-    border-spacing: 15px 0px;
-    
-}
-
-table td {
-    width: 50%;
-    text-align: center;
-    vertical-align: top;
-    line-height: 1.1;
-    padding: 5px;
-}
-
 .separador {
     text-align: center;
+    align-items: center;
 }
 
 .separador img {
@@ -224,7 +195,7 @@ table td {
 .fecha {
     font-family: "URWChanceryLMediumItalicU";
     font-size: 22px;
-    font-weight: bold;
+    font-weight: normal;
     text-align: center;
     margin-top: 5px;
 }
